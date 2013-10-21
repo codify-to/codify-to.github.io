@@ -1,0 +1,34 @@
+body{
+	background-color: #fff;
+	width: 100%;
+	height: 100%;
+	margin:0;
+	padding: 0;
+}
+
+#logo{
+	width: 364px;
+	height: 465px;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+	margin-left:-182px;  
+	margin-top:-249px; 
+}
+
+#topBar{
+	background-color:#000;
+	position: absolute;
+	width: 100%;
+	margin: 0;
+	color:#fff;
+	padding: 5px;
+	font-family: helvetica, arial,sans-serif;;
+	font-size:11px;
+	text-align: center;
+	box-sizing: border-box;
+	}
+
+a{text-decoration: none;
+	color:#65BED8;
+}
