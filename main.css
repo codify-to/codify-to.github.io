@@ -29,6 +29,15 @@ body{
 	box-sizing: border-box;
 	}
 
+#address{
+	position: absolute;
+	bottom: 5px;
+	font-size: 10px;
+	text-align: center;
+	font-family: helvetica, arial,sans-serif;
+	width: 100%;
+}
+
 a{text-decoration: none;
 	color:#65BED8;
 }
