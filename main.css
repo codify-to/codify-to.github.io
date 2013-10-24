@@ -23,10 +23,11 @@ body{
 	margin: 0;
 	color:#fff;
 	padding: 5px;
-	font-family: helvetica, arial,sans-serif;;
+	font-family: "Proxima N W01 Reg",helvetica, arial,sans-serif;;
 	font-size:11px;
 	text-align: center;
 	box-sizing: border-box;
+	letter-spacing: .15em;
 	}
 
 #address{
@@ -34,10 +35,26 @@ body{
 	bottom: 5px;
 	font-size: 10px;
 	text-align: center;
-	font-family: helvetica, arial,sans-serif;
+	font-family:"Proxima N W01 Reg", helvetica, arial,sans-serif;
+	letter-spacing: 0.12em;
 	width: 100%;
 }
 
 a{text-decoration: none;
 	color:#65BED8;
 }
+
+
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=de8a6660-2cec-4f5e-9849-2e64496318c3");
+@font-face{
+font-family:"Proxima N W01 Reg";
+src:url("fonts/7e90123f-e4a7-4689-b41f-6bcfe331c00a.eot?#iefix");
+src:url("fonts/7e90123f-e4a7-4689-b41f-6bcfe331c00a.eot?#iefix") format("eot"),url("fonts/e56ecb6d-da41-4bd9-982d-2d295bec9ab0.woff") format("woff"),url("fonts/2aff4f81-3e97-4a83-9e6c-45e33c024796.ttf") format("truetype"),url("fonts/ab9cd062-380f-4b53-b1a7-c0bec7402235.svg#ab9cd062-380f-4b53-b1a7-c0bec7402235") format("svg");
+}
+
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web fonts:  http://webfonts.fonts.com
+*/
